@@ -2,7 +2,6 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aluraBoocks</title>
     <link rel="stylesheet" href="style.css">
@@ -10,12 +9,43 @@
 </head>
 <body>
     <header class="cabecalho"> 
-<span class="cabecalho_menu-hanburguer"></span>
-<img src="img/Logo.png" alt="logo do aluraBoocks">
+        <div class="container">
+        <input type="checkbox" id="menu" class="container__botao">
+<label for="menu"> 
+    ,<span class="cabecalho_menu-hanburguer container__imagem"> </span>
+</label>
+<ul class="lista-menu"> 
+    <li class="lista-menu__titulo">categorias</li>
+    <li class="lista-menu__item">
+         <a href="#" class="lista-item__link">programação </a>
+    </li>
+   
+    <li class="lista-menu__item">
+         <a href="#" class="lista-item__link">front-end</a>
+    </li>
+  
+    <li class="lista-menu__item">
+         <a href="#" class="lista-item__link"> programação</a>
+    </li>
+  
+    <li class="lista-menu__item">
+         <a href="#" class="lista-item__link">Infraestrutura</a>
+    </li>
+
+    <li class="lista-menu__item">
+         <a href="#" class="lista-item__link">business </a>
+    </li>
+
+    <li class="lista-menu__item">
+         <a href="#" class="lista-item__link">Design & ux </a>
+    </li>
+</ul>
+<img src="img/Logo.png" alt="logo do aluraBoocks" class="container__imagem">
+</div>
 <div class="container"> 
-<a href="#"><img src="img/Favoritos.png" alt="Meus favoritos" srcset=""></a>
-<a href="#"><img src="img/Compras.png" alt="Minhas Compras"></a>
-<a href="#"><img src="img/Usuário.png" alt="Meu perfil"></a>
+<a href="#"><img src="img/Favoritos.png" alt="Meus favoritos" class="container__imagem"></a>
+<a href="#"><img src="img/Compras.png" alt="Minhas Compras" class="container__imagem"></a>
+<a href="#"><img src="img/Usuário.png" alt="Meu perfil" class="container__imagem"></a>
 </div>
     </header>
 </body>
